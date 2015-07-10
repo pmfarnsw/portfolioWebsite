@@ -19,9 +19,8 @@ var app = module.exports = express();
 //connect to mongo database and link schema
 
 
-//require(__dirname+'/models/...js');
-
-mongoose.connect('mongodb://localhost/workoutLog');
+//require(__dirname+'/models/...js')
+mongoose.connect('mongodb://localhost/portfolio');
 var db = mongoose.connection;
 
 
@@ -35,7 +34,7 @@ var routes = require('./routes');
  */
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 app.set('views', __dirname + '/views');
 
 
@@ -94,8 +93,9 @@ db.once('open',function(callback){
      * Start Server
      */
 
-    http.createServer(app).listen(app.get('port'), function () {
+    http.createServer(app).listen(8080,app.get('127.0.0.1'), function () {
         console.log('Express server listening on port ' + app.get('port'));
     });
+
 
 });
