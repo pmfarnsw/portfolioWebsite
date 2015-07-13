@@ -1,30 +1,93 @@
 /* app css stylesheet */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+body{
+  padding-top:70px;
+  margin:0;
+  height:100%;
+
+}
+html{
+  height:100%;
 }
 
-.menu:before {
-  content: "[";
+.main-body{
+  width:100%;
+
 }
 
-.menu:after {
-  content: "]";
+.container{
+  /*padding:0px;*/
+  width:100%;
 }
 
-.menu > li {
-  display: inline;
+.navbar-default .navbar-toggle .icon-bar{
+
+  background-color:white;
 }
 
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+
+
+
+.navbar-default{
+  background-color:#D04949;
+  color:white;
+}
+.navbar-default .navbar-nav > .active > a{
+  background-color: #F47878;
+  color:black;
 }
 
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+.navbar-default .navbar-nav > .active > a:focus{
+  background-color: #F47878;
+  color:black;
+}
+
+#wrapper{
+  min-height: 100%;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-default .navbar-brand{
+  color:white;
+}
+
+#content{
+  padding-bottom:200px;
+  overflow:auto;
+}
+
+.footer{
+
+
+  background-color:#D04949;
+  color:white;
+  position: relative;
+  margin-top: -100px; /* negative value of footer height */
+  height: 100px;
+  clear:both;
+  padding-top:48px;
+}
+
+
+
+
+
+/*
+  adding mobile css first
+  will only apply while bootstrap
+  navbar is collapsed
+*/
+@media screen and (max-width:767px){
+
+
+
+}
+
+
+@media screen and (min-width:767px){
+
+
 }
