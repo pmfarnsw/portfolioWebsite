@@ -13,15 +13,25 @@ block body
                 ul.nav.navbar-nav.navbar-right
                     li.active(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/about" nbr-collapse-mobile-view)
                         a(href='#/about' ) About
-                    li.active(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/test" nbr-collapse-mobile-view)
-                        a(href='#/about' ) Projects
+                    li.active(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/projects" nbr-collapse-mobile-view)
+                        a(href='#/projects' ) Projects
                     li.active(data-toggle='collapse' data-target=".nav-collapse" nbr-active-element="/contact" nbr-collapse-mobile-view)
                         a(href='#/contact' ) Contact
     .container(id="wrapper")
         div(ng-view id="content")
 
     div.footer
-        p.text-center Email - pmfarnsw@gmail.com
+        div.text-center
+            a( href="https://github.com/pmfarnsw").space-img
+                img(src="resources/img/GitHub-Mark-32px.png" alt="Link to personal GitHub")
+            a( href="https://www.linkedin.com/pub/paul-farnsworth/66/97/744")
+                img( src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Paul Farnsworth's profile on LinkedIn")
+        div.text-center
+            p.email-footer Paul Farnsworth - pmfarnsw@gmail.com
+
+
+
+
 
 
     script( src="bower_components/angular/angular.js")
@@ -32,6 +42,8 @@ block body
     script(src="app/directives/navBarActiveElement.js")
     script( src="app/about/about.js")
     script( src="app/contact/contact.js")
+    script( src="app/projects/projects.js")
+    script( src="app/services/services.js")
     script( src="app/components/version/version.js")
     script( src="app/components/version/interpolate-filter.js")
     script( src="app/components/version/version-directive.js")

@@ -4,7 +4,28 @@ body{
   padding-top:70px;
   margin:0;
   height:100%;
+  /*background-image: url("resources/img/background.png");*/
+  /*background-size: cover;*/
+  /*font-family: 'Lobster',cursive;*/
+  font-family: 'Cabin', sans-serif;
 
+}
+
+nav,h1,h2 {
+  font-family: 'Lobster',cursive;
+}
+
+.lobster-font{
+  font-family: 'Lobster',cursive;
+
+}
+
+.cabin-font{
+  font-family: 'Cabin', sans-serif;
+}
+
+.page-subject{
+  font-size:2em;
 }
 html{
   height:100%;
@@ -16,7 +37,7 @@ html{
 }
 
 .container{
-  /*padding:0px;*/
+
   width:100%;
 }
 
@@ -26,6 +47,11 @@ html{
 }
 
 
+.center-img{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+}
 
 
 .navbar-default{
@@ -68,7 +94,16 @@ html{
   margin-top: -100px; /* negative value of footer height */
   height: 100px;
   clear:both;
-  padding-top:48px;
+  padding-top:19px;
+}
+
+
+.space-img{
+  padding-right:20px;
+}
+
+.email-footer{
+  margin-top:15px;
 }
 
 

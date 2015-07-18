@@ -1,0 +1,24 @@
+{
+  "projects":[
+      {
+        "title": "Workout Log",
+        "type": "Web",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus odio consectetur leo sollicitudin, id faucibus diam ultricies. Sed eget elit maximus, pretium elit nec, feugiat dui. Vivamus fermentum, risus at pulvinar elementum, enim nibh fermentum nulla, sed ullamcorper turpis tortor sed arcu. Aliquam congue, erat non eleifend accumsan, leo justo maximus nisi, dignissim porta ipsum dolor at ex. Praesent dictum lectus eros, ac porttitor est sollicitudin nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum blandit iaculis ligula in efficitur. Aliquam lacinia imperdiet urna eget imperdiet. Integer finibus nisi vitae fermentum cursus. Etiam vehicula tellus justo, a hendrerit urna aliquam sed."
+      },
+      {
+        "title": "Ashville Ski Club",
+        "type": "Android",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus odio consectetur leo sollicitudin, id faucibus diam ultricies. Sed eget elit maximus, pretium elit nec, feugiat dui. Vivamus fermentum, risus at pulvinar elementum, enim nibh fermentum nulla, sed ullamcorper turpis tortor sed arcu. Aliquam congue, erat non eleifend accumsan, leo justo maximus nisi, dignissim porta ipsum dolor at ex. Praesent dictum lectus eros, ac porttitor est sollicitudin nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum blandit iaculis ligula in efficitur. Aliquam lacinia imperdiet urna eget imperdiet. Integer finibus nisi vitae fermentum cursus. Etiam vehicula tellus justo, a hendrerit urna aliquam sed."
+      },
+      {
+        "title": "BeagleBones",
+        "type": "Web",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus odio consectetur leo sollicitudin, id faucibus diam ultricies. Sed eget elit maximus, pretium elit nec, feugiat dui. Vivamus fermentum, risus at pulvinar elementum, enim nibh fermentum nulla, sed ullamcorper turpis tortor sed arcu. Aliquam congue, erat non eleifend accumsan, leo justo maximus nisi, dignissim porta ipsum dolor at ex. Praesent dictum lectus eros, ac porttitor est sollicitudin nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum blandit iaculis ligula in efficitur. Aliquam lacinia imperdiet urna eget imperdiet. Integer finibus nisi vitae fermentum cursus. Etiam vehicula tellus justo, a hendrerit urna aliquam sed."
+      },
+      {
+        "title": "Tutor app",
+        "type": "java",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus odio consectetur leo sollicitudin, id faucibus diam ultricies. Sed eget elit maximus, pretium elit nec, feugiat dui. Vivamus fermentum, risus at pulvinar elementum, enim nibh fermentum nulla, sed ullamcorper turpis tortor sed arcu. Aliquam congue, erat non eleifend accumsan, leo justo maximus nisi, dignissim porta ipsum dolor at ex. Praesent dictum lectus eros, ac porttitor est sollicitudin nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum blandit iaculis ligula in efficitur. Aliquam lacinia imperdiet urna eget imperdiet. Integer finibus nisi vitae fermentum cursus. Etiam vehicula tellus justo, a hendrerit urna aliquam sed."
+      }
+    ]
+}

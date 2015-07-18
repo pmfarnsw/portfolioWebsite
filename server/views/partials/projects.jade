@@ -1,0 +1,21 @@
+//Created by pmfarnsw on 7/13/15.
+link(rel="stylesheet" href="resources/css/projects.css")
+.row
+   h1.col-xs-12.col-sm-12.col-mid-8.col-md-offset-2
+      u.page-subject Projects
+.row
+   div(ng-repeat="project in projects").col-xs-12.col-sm-12.col-md-8.col-md-offset-2.projectsContainer
+      .row
+         div.col-xs-12.col-sm-3.col-md-4.center-img.thumbnail
+            img(src="http://placehold.it/350x150")
+         div.col-xs-12.col-sm-9.col-md-8
+            .row
+               div.col-xs-12.col-sm-12.col-md-12
+                  p.lobster-font.project-title {{project.title}}
+
+            .row
+               div.col-xs-12.col-sm-12.col-md-12
+                  p.summary {{project.description}}
+            .row
+               div.col-xs-12.col-sm-12.col-md-12
+                  <button type="button" class="btn btn-primary btn-sm active">Primary button</button>

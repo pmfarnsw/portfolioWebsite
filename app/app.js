@@ -5,6 +5,8 @@ angular.module('portfolio', [
   'ngRoute',
   'portfolio.about',
   'portfolio.contact',
+  'portfolio.projects',
+  'portfolio.services',
   'portfolio.version'
 ]).
 config(['$routeProvider', function($routeProvider) {

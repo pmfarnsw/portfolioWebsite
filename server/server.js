@@ -74,7 +74,7 @@ db.once('open',function(callback){
      */
 
 
-
+    app.get('/projects.json',routes.projects);
 
     // serve index and view partials
 
