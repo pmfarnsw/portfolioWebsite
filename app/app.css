@@ -8,7 +8,7 @@ body{
   /*background-size: cover;*/
   /*font-family: 'Lobster',cursive;*/
   font-family: 'Cabin', sans-serif;
-  overflow-x:hidden;
+
 
 }
 
@@ -40,6 +40,7 @@ html{
 .container{
 
   width:100%;
+
 }
 
 .navbar-default .navbar-toggle .icon-bar{
@@ -87,6 +88,7 @@ html{
 #content{
   padding-bottom:200px;
   overflow:auto;
+  overflow-x:hidden;
 }
 
 .footer{
