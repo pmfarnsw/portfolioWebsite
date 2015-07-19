@@ -6,8 +6,8 @@ link(rel="stylesheet" href="resources/css/projects.css")
 .row
    div(ng-repeat="project in projects").col-xs-12.col-sm-12.col-md-8.col-md-offset-2.projectsContainer
       .row
-         div.col-xs-12.col-sm-3.col-md-4.center-img.thumbnail
-            img(src="http://placehold.it/350x150")
+         div.col-xs-12.col-sm-3.col-md-4.center-img
+            img(src="resources/img/{{project.img}}").img-responsive
          div.col-xs-12.col-sm-9.col-md-8
             .row
                div.col-xs-12.col-sm-12.col-md-12
@@ -17,5 +17,5 @@ link(rel="stylesheet" href="resources/css/projects.css")
                div.col-xs-12.col-sm-12.col-md-12
                   p.summary {{project.description}}
             .row
-               div.col-xs-12.col-sm-12.col-md-12
-                  <button type="button" class="btn btn-primary btn-sm active">Primary button</button>
+               div(ng-repeat="links in project.links").col-xs-12.col-sm-12.col-md-12
+                  a( href="{{links.link}}" class="btn btn-primary btn-lg active" role="button") {{links.label}}
