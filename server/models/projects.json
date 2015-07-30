@@ -4,7 +4,7 @@
         "title": "Ashville Ski Club",
         "type": "Web",
         "img":"asc.png",
-        "description": "Worked with a friend to build a new website for his ski club in Asheville.  The site uses a MEAN stack (MongoDB, ExpressJS, AngularJS, and Node) for the purpose of gaining experience with those technologies.  We meet on skype to collaborate while we code and keep our project on GitHub for version control.  I worked on adding the backend to our website and building the overall website layout while my friend worked on adding the content for his ski club.  The site currently has the basic content for the ski club and has been moved off of localhost to a live server for the ski club’s review before we make any further additions to the site.",
+        "description": "I worked with a friend to build a new website for  Asheville Ski Club.  The site uses a MEAN stack (MongoDB, ExpressJS, AngularJS, and Node) for the purpose of gaining experience with those technologies.  We met on skype to collaborate while we code and keep our project on GitHub for version control.  I added the backend to our website and built the overall website layout while my friend added the content for his ski club.  The site currently has the basic content for the ski club and has been moved off of localhost to a live server for the ski club’s review before we make any further additions to the site.",
         "links":[
           {
             "label":"GitHub",
@@ -16,7 +16,7 @@
         "title": "Workout Log",
         "type": "Web",
         "img":"workoutLog.png",
-        "description": "The current goal of this project will be to allow me to log workouts on a daily basis and then view all past workouts to see my current progress.  This site is also being built on MEAN stack (MongoDB, ExpressJS, AngularJS, and Node) so I can continue learning these technologies.   Currently the project only has the ability to add a workout name and description and then view them on a separate page.  I am currently working on adding a more detailed form.",
+        "description": "The current goal of this project will be to log workouts on a daily basis and then view all past workouts to see my current progress.  This site is also being built on MEAN stack (MongoDB, ExpressJS, AngularJS, and Node) so I can continue learning these technologies.   Currently the project only has the ability to add a workout name and description and then view them on a separate page.  I am currently working on adding a more detailed form.",
         "links":[
           {
             "label":"GitHub",
@@ -28,7 +28,7 @@
         "title": "Color to Music Generator",
         "type": "Sensor Systems",
         "img":"beaglebone.png",
-        "description": "Worked together with two other classmates to make a color to music generator.  The system includes the use of three Beaglebone Black devices--one for reading color data via a color sensor breakout, another attached to an accelerometer accepting user movement input along the x-axis, and the third hosting the responsive speaker device, capable of playing a large array of tones at reasonable volumes. Acting as the intermediary between the boards is the server, with all appropriate code and environment attributes run from a team member's computer. ",
+        "description": "I worked together with two other classmates to make a color to music generator.  The system includes the use of three Beaglebone Black devices--one for reading color data via a color sensor breakout, another attached to an accelerometer accepting user movement input along the x-axis, and the third hosting the responsive speaker device, capable of playing a large array of tones at reasonable volumes. Acting as the intermediary between the boards is the server, with all appropriate code and environment attributes run from a team member's computer.",
         "links":[
           {
             "label":"Project Website",
