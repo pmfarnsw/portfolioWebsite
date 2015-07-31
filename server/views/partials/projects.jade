@@ -17,5 +17,5 @@ link(rel="stylesheet" href="resources/css/projects.css")
                div.col-xs-12.col-sm-12.col-md-12
                   p.summary {{project.description}}
             .row
-               div(ng-repeat="links in project.links").col-xs-12.col-sm-12.col-md-12
-                  a( href="{{links.link}}" class="btn btn-primary btn-lg active" role="button") {{links.label}}
+               div.col-xs-12.col-sm-12.col-md-12
+                  a(ng-repeat="links in project.links" href="{{links.link}}" class="btn btn-primary btn-lg active" role="button") {{links.label}}
